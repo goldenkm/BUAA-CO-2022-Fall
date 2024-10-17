@@ -1,0 +1,29 @@
+ISim log file
+Running: /home/co-eda/p4_practice/mips_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/co-eda/p4_practice/mips_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+@00003000: $ 1 <= 01010000
+@00003004: $ 1 <= 0101010f
+@00003008: $ 8 <= 0101010f
+@0000300c: *00000000 <= 0101010f
+@00003010: $ 9 <= 0000000f
+@00003014: $10 <= 00000000
+# exit 0
+# restart
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+@00003000: $ 1 <= 01010000
+@00003004: $ 1 <= 0101010f
+@00003008: $ 8 <= 0101010f
+@0000300c: *00000000 <= 0101010f
+@00003010: $ 9 <= 0000000f
+@00003014: $10 <= 00000000
+Stopped at time : 6820885 ns : File "/home/co-eda/p4_practice/mips_tb.v" Line 54
+# exit 0

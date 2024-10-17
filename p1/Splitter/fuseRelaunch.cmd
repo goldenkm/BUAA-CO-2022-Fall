@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/co-eda/ISE/Splitter/splitter_tb_isim_beh.exe" -prj "/home/co-eda/ISE/Splitter/splitter_tb_beh.prj" "work.splitter_tb" "work.glbl" 

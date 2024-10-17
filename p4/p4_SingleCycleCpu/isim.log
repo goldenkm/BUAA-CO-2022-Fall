@@ -1,0 +1,20 @@
+ISim log file
+Running: /home/co-eda/p4_SingleCycleCpu/mips_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/co-eda/p4_SingleCycleCpu/mips_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+@00003000: $ 4 <= 0000ffff
+@00003004: $ 5 <= 00000400
+@00003008: $ 6 <= 00001000
+@0000300c: *00000000 <= 0000ffff
+@00003010: *00000004 <= 00000400
+@00003014: *00000008 <= 00001000
+@00003018: $16 <= ffffffff
+@0000301c: $17 <= 00000004
+@00003020: $18 <= 00000000
+# exit 0

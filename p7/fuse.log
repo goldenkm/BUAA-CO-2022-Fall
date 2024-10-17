@@ -1,0 +1,71 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/co-eda/p7/mips_txt_isim_beh.exe -prj /home/co-eda/p7/mips_txt_beh.prj work.mips_txt work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/co-eda/p7/Splitter.v" into library work
+Analyzing Verilog file "/home/co-eda/p7/RF.v" into library work
+Analyzing Verilog file "/home/co-eda/p7/PC.v" into library work
+Analyzing Verilog file "/home/co-eda/p7/nPC.v" into library work
+Analyzing Verilog file "/home/co-eda/p7/MUX.v" into library work
+Analyzing Verilog file "/home/co-eda/p7/MEM_WB_Reg.v" into library work
+Analyzing Verilog file "/home/co-eda/p7/MDU.v" into library work
+Analyzing Verilog file "/home/co-eda/p7/IF_ID_Reg.v" into library work
+Analyzing Verilog file "/home/co-eda/p7/ID_EX_Reg.v" into library work
+Analyzing Verilog file "/home/co-eda/p7/EX_MEM_Reg.v" into library work
+Analyzing Verilog file "/home/co-eda/p7/Ext.v" into library work
+Analyzing Verilog file "/home/co-eda/p7/ExcCheck.v" into library work
+Analyzing Verilog file "/home/co-eda/p7/DE.v" into library work
+Analyzing Verilog file "/home/co-eda/p7/CP0.v" into library work
+Analyzing Verilog file "/home/co-eda/p7/CMP.v" into library work
+Analyzing Verilog file "/home/co-eda/p7/BE.v" into library work
+Analyzing Verilog file "/home/co-eda/p7/ALU.v" into library work
+Analyzing Verilog file "/home/co-eda/p7/HazardControll.v" into library work
+Analyzing Verilog file "/home/co-eda/p7/DataPath.v" into library work
+Analyzing Verilog file "/home/co-eda/p7/Control.v" into library work
+Analyzing Verilog file "/home/co-eda/p7/P7_standard_timer_2019.v" into library work
+Analyzing Verilog file "/home/co-eda/p7/CPU.v" into library work
+Analyzing Verilog file "/home/co-eda/p7/Bridge.v" into library work
+Analyzing Verilog file "/home/co-eda/p7/mips.v" into library work
+Analyzing Verilog file "/home/co-eda/p7/mips_tb.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 83656 KB
+Fuse CPU Usage: 1170 ms
+Compiling module Control
+Compiling module HazardControl
+Compiling module PC
+Compiling module IF_ID_Reg
+Compiling module Splitter
+Compiling module MUX3_5bits
+Compiling module RF
+Compiling module MUX4_32bits
+Compiling module CMP
+Compiling module Ext
+Compiling module nPC
+Compiling module ID_EX_Reg
+Compiling module MUX3_32bits
+Compiling module MUX2_32bits
+Compiling module ALU
+Compiling module MDU
+Compiling module EX_MEM_Reg
+Compiling module BE
+Compiling module DE
+Compiling module ExcCheck
+Compiling module CP0
+Compiling module MEM_WB_Reg
+Compiling module MUX5_32bits
+Compiling module DataPath
+Compiling module CPU
+Compiling module Bridge
+Compiling module TC
+Compiling module mips
+Compiling module mips_txt
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 30 Verilog Units
+Built simulation executable /home/co-eda/p7/mips_txt_isim_beh.exe
+Fuse Memory Usage: 89572 KB
+Fuse CPU Usage: 1270 ms
+GCC CPU Usage: 3290 ms

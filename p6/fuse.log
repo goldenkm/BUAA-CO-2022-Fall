@@ -1,0 +1,60 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/co-eda/p6/mips_txt_isim_beh.exe -prj /home/co-eda/p6/mips_txt_beh.prj work.mips_txt work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/co-eda/p6/Splitter.v" into library work
+Analyzing Verilog file "/home/co-eda/p6/RF.v" into library work
+Analyzing Verilog file "/home/co-eda/p6/PC.v" into library work
+Analyzing Verilog file "/home/co-eda/p6/nPC.v" into library work
+Analyzing Verilog file "/home/co-eda/p6/MUX.v" into library work
+Analyzing Verilog file "/home/co-eda/p6/MEM_WB_Reg.v" into library work
+Analyzing Verilog file "/home/co-eda/p6/MDU.v" into library work
+Analyzing Verilog file "/home/co-eda/p6/IF_ID_Reg.v" into library work
+Analyzing Verilog file "/home/co-eda/p6/ID_EX_Reg.v" into library work
+Analyzing Verilog file "/home/co-eda/p6/EX_MEM_Reg.v" into library work
+Analyzing Verilog file "/home/co-eda/p6/Ext.v" into library work
+Analyzing Verilog file "/home/co-eda/p6/DE.v" into library work
+Analyzing Verilog file "/home/co-eda/p6/CMP.v" into library work
+Analyzing Verilog file "/home/co-eda/p6/BE.v" into library work
+Analyzing Verilog file "/home/co-eda/p6/ALU.v" into library work
+Analyzing Verilog file "/home/co-eda/p6/HazardControll.v" into library work
+Analyzing Verilog file "/home/co-eda/p6/DataPath.v" into library work
+Analyzing Verilog file "/home/co-eda/p6/Control.v" into library work
+Analyzing Verilog file "/home/co-eda/p6/mips.v" into library work
+Analyzing Verilog file "/home/co-eda/p6/mips_tb.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 83224 KB
+Fuse CPU Usage: 1300 ms
+Compiling module Control
+Compiling module HazardControl
+Compiling module PC
+Compiling module IF_ID_Reg
+Compiling module Splitter
+Compiling module MUX4_5bits
+Compiling module RF
+Compiling module MUX4_32bits
+Compiling module CMP
+Compiling module Ext
+Compiling module nPC
+Compiling module ID_EX_Reg
+Compiling module MUX3_32bits
+Compiling module MUX2_32bits
+Compiling module ALU
+Compiling module MDU
+Compiling module EX_MEM_Reg
+Compiling module BE
+Compiling module DE
+Compiling module MEM_WB_Reg
+Compiling module DataPath
+Compiling module mips
+Compiling module mips_txt
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 24 Verilog Units
+Built simulation executable /home/co-eda/p6/mips_txt_isim_beh.exe
+Fuse Memory Usage: 88284 KB
+Fuse CPU Usage: 1380 ms
+GCC CPU Usage: 2420 ms
